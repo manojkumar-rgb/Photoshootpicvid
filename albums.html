@@ -1,0 +1,349 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>albums</title>
+    <style>
+        .lk {
+            height: 150px;
+            width: 150px;
+            background-color: cadetblue;
+            position: relative;
+            animation-name: manoj;
+            animation-duration: 10s;
+            animation-timing-function: linear;
+            animation-delay: 2s;
+            animation-iteration-count: infinite;
+            animation-direction: alternate;
+            border-radius: 100px;
+
+        }
+        .di{
+            opacity: 0.1;
+        }
+        .dj:hover{
+            opacity: 0.9;
+            border-radius: 100px;
+            box-shadow: 3px 4px 5px black;
+        }
+
+
+        @keyframes manoj {
+            0% {
+                top: 0px;
+                left: 100px;
+
+            }
+
+            100% {
+                top: 0px;
+                left: 500px;
+            }
+            
+
+            
+        }
+        
+    </style>
+</head>
+
+<body style="background-color: rgb(223, 145, 247);">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+        integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js"
+        integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy"
+        crossorigin="anonymous"></script>
+
+    <!------------------------------------------nav--------------------------------------------------------->
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <nav class="navbar navbar-dark bg-dark fixed-top">
+                    <div class="container-fluid">
+                        <a class="navbar-brand" href="#" style="font-family: cursive; color: aqua;">PICVID</a>
+                        <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas"
+                            data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar"
+                            aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class="offcanvas offcanvas-end text-bg-dark" tabindex="-1" id="offcanvasDarkNavbar"
+                            aria-labelledby="offcanvasDarkNavbarLabel">
+                            <div class="offcanvas-header">
+                                <h5 class="offcanvas-title" id="offcanvasDarkNavbarLabel">VIEW ALL</h5>
+                                <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas"
+                                    aria-label="Close"></button>
+                            </div>
+                            <div class="offcanvas-body">
+                                <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                                    <li class="nav-item">
+                                        <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="about.html">ABOUT US</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="albums.html">ALBUMS</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="contact.html">CONTACT</a>
+                                    </li>
+                                    <ul class="dropdown-menu dropdown-menu-dark">
+                                        <li><a class="dropdown-item" href="#">Action</a></li>
+                                        <li><a class="dropdown-item" href="#">Another action</a></li>
+                                        <li>
+                                            <hr class="dropdown-divider">
+                                        </li>
+                                        <li><a class="dropdown-item" href="#">Something else here</a></li>
+                                    </ul>
+                                    </li>
+                                </ul>
+                                <form class="d-flex mt-3" role="search">
+                                    <input class="form-control me-2" type="search" placeholder="Search"
+                                        aria-label="Search">
+                                    <button class="btn btn-success" type="submit">Search</button>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </nav>
+            </div>
+        </div>
+    </div><br><br><br>
+    <h4 style="text-align: center; font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;">PRE WEDDING
+        ALBUMS</h4>
+
+    <div class="container" >
+        <div class="row">
+            <div class="col-md-4"> 
+              <center>  <img style="border-radius: 500px;" class="dj" src="https://images.pexels.com/photos/28281727/pexels-photo-28281727/free-photo-of-bridal-photography-wedding-party.jpeg?auto=compress&cs=tinysrgb&w=600"
+                        
+                    alt="" height="400px" width="300px"></center>
+                    <h3></h3>
+            </div>
+            <div class="col-md-4">
+                
+               <center> <img style="border-radius: 500px;" class="dj" src="https://images.pexels.com/photos/9787663/pexels-photo-9787663.jpeg?auto=compress&cs=tinysrgb&w=600"
+                        
+                    alt="" height="400px" width="300px"></center>
+                    <h3></h3>
+            </div>
+            <div class="col-md-4">
+                <center><img
+                    style="border-radius: 500px;" class="dj" src="https://images.pexels.com/photos/7153785/pexels-photo-7153785.jpeg?auto=compress&cs=tinysrgb&w=600"
+                       
+                    alt="" height="400px" width="300px"> </center>
+                    <h3></h3>
+            </div>
+        </div>
+    </div><br>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-4">
+                <center>
+                    <img  style="border-radius: 500px;" class="dj" src="https://images.pexels.com/photos/24023469/pexels-photo-24023469/free-photo-of-a-table-in-a-room.jpeg?auto=compress&cs=tinysrgb&w=600"
+                        alt="" height="400px" width="300px">
+                </center>
+                <h3></h3>
+            </div>
+            <div class="col-md-4">
+                <center>
+                    <img style="border-radius: 500px;" class="dj" src="https://images.pexels.com/photos/27370163/pexels-photo-27370163/free-photo-of-studio-shot-of-a-young-bride-and-groom.jpeg?auto=compress&cs=tinysrgb&w=600"
+                        alt="" height="400px" width="300px">
+                </center>
+                <h3></h3>
+            </div>
+            <div class="col-md-4">
+                <center>
+                    <img style="border-radius: 500px;" class="dj" src="https://images.pexels.com/photos/27060169/pexels-photo-27060169/free-photo-of-the-bride-and-groom-standing-near-a-palm-tree.jpeg?auto=compress&cs=tinysrgb&w=600"
+                        alt="" height="400px" width="300px">
+                </center>
+                <h3></h3>
+            </div>
+        </div>
+    </div><br><br>
+    <h4 style="text-align: center; font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;">BABY SHOWER
+        ALBUMS</h4>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-4">
+                <center>
+                    <img style="border-radius: 500px;" class="dj" src="https://images.pexels.com/photos/25559072/pexels-photo-25559072/free-photo-of-a-pregnant-woman-standing-on-the-background-of-balloons-and-decorations-with-dinosaurs.jpeg?auto=compress&cs=tinysrgb&w=600"
+                        alt="" height="400px" width="300px"></center>
+                    <h3></h3>
+            </div>
+            <div class="col-md-4">
+                <center>
+                <img style="border-radius: 500px;" class="dj" src="https://images.pexels.com/photos/20867188/pexels-photo-20867188/free-photo-of-party-hat-with-number-1.jpeg?auto=compress&cs=tinysrgb&w=600"
+                    alt="" height="400px" width="300px"></center>
+                <h3></h3>
+            </div>
+            <div class="col-md-4">
+                <center>
+                <img style="border-radius: 500px;" class="dj" src="https://images.pexels.com/photos/20216126/pexels-photo-20216126/free-photo-of-couple-expecting-baby.jpeg?auto=compress&cs=tinysrgb&w=600"
+                    alt="" height="400px" width="300px"></center>
+                <h3></h3>
+            </div>
+        </div>
+    </div><br><br>
+    <h4 style="text-align: center; font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;">BABY ALBUMS
+    </h4>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-4">
+                <center>
+                <img style="border-radius: 500px;" class="dj" src="https://images.pexels.com/photos/459976/pexels-photo-459976.jpeg?auto=compress&cs=tinysrgb&w=600"
+                    alt="" height="400px" width="300px"></center>
+                <h3></h3>
+            </div>
+            <div class="col-md-4">
+                <center>
+                <img style="border-radius: 500px;" class="dj" src="https://images.pexels.com/photos/1364756/pexels-photo-1364756.jpeg?auto=compress&cs=tinysrgb&w=600"
+                    alt="" height="400px" width="300px"></center>
+                <h3></h3>
+            </div>
+            <div class="col-md-4">
+                <center>
+                <img style="border-radius: 500px;" class="dj" src="https://images.pexels.com/photos/35666/cooking-baby-only-kitchen.jpg?auto=compress&cs=tinysrgb&w=600"
+                    alt="" height="400px" width="300px"></center>
+                <h3></h3>
+            </div>
+        </div>
+    </div><br><br>
+    <h4 style="text-align: center; font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;">BIRTHDAY
+        ALBUMS</h4>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-4">
+                <center>
+                <img style="border-radius: 500px;" class="dj" src="https://images.pexels.com/photos/28157819/pexels-photo-28157819/free-photo-of-adorable-first-birthday-cake-celebration.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load"
+                    alt="" height="400px" width="300px"></center>
+                <h3></h3>
+            </div>
+            <div class="col-md-4">
+                <center>
+                <img style="border-radius: 500px;" class="dj" src="https://images.pexels.com/photos/16322559/pexels-photo-16322559/free-photo-of-baby-eating-cake.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load"
+                    alt="" height="400px" width="300px"></center>
+                <h3></h3>
+            </div>
+            <div class="col-md-4">
+                <center>
+                <img style="border-radius: 500px;" class="dj" src="https://images.pexels.com/photos/4439461/pexels-photo-4439461.jpeg?auto=compress&cs=tinysrgb&w=600"
+                    alt="" height="400px" width="300px"></center>
+                <h3></h3>
+            </div>
+        </div>
+    </div><br><br>
+    <h4 style="text-align: center; font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;">FASHION
+    </h4>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-4">
+                <center>
+                <img style="border-radius: 500px;" class="dj" src="https://images.pexels.com/photos/794062/pexels-photo-794062.jpeg?auto=compress&cs=tinysrgb&w=600"
+                    alt="" height="400px" width="300px"></center>
+                <h3></h3>
+            </div>
+            <div class="col-md-4">
+                <center>
+                <img style="border-radius: 500px;" class="dj" src="https://images.pexels.com/photos/10593044/pexels-photo-10593044.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load"
+                    alt="" height="400px" width="300px"></center>
+                <h3></h3>
+            </div>
+            <div class="col-md-4">
+                <center>
+                <img style="border-radius: 500px;" class="dj" src="https://images.pexels.com/photos/15265207/pexels-photo-15265207/free-photo-of-a-woman-with-a-smile-painted-on-her-face.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load"
+                    alt="" height="400px" width="300px"></center>
+                <h3></h3>
+            </div>
+        </div>
+    </div><br><br>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-4">
+                <center>
+                <img style="border-radius: 500px;" class="dj" src="https://images.pexels.com/photos/3695801/pexels-photo-3695801.jpeg?auto=compress&cs=tinysrgb&w=600"
+                    alt="" height="400px" width="300px"></center>
+                <h3></h3>
+            </div>
+            <div class="col-md-4">
+                <center>
+                <img style="border-radius: 500px;" class="dj" src="https://images.pexels.com/photos/4611700/pexels-photo-4611700.jpeg?auto=compress&cs=tinysrgb&w=600"
+                    alt="" height="400px" width="300px"></center>
+                <h3></h3>
+            </div>
+            <div class="col-md-4">
+                <center>
+                <img style="border-radius: 500px;" class="dj" src="https://images.pexels.com/photos/771742/pexels-photo-771742.jpeg?auto=compress&cs=tinysrgb&w=600"
+                    alt="" height="400px" width="300px"></center>
+                <h3></h3>
+            </div>
+        </div>
+    </div><br><br>
+    <div style="color: rgb(255, 255, 255); background-color: rgb(0, 0, 0);" class="continer">
+        <div class="row">
+
+            <div class="col-md-3">
+                <h4 style="text-align: center;"> OPENING TIME</h4><br>
+
+                <P style="text-align: center;">Monday 10am&6pm</P>
+                <P style="text-align: center;">TUSDAY 10AM&6PM</P>
+                <P style="text-align: center;">WEDNESDAY 10AM&6PM</P>
+                <P style="text-align: center;">THURSDAY 10AM&6PM</P>
+                <P style="text-align: center;">FRIDAY 10AM&6PM</P>
+                <P style="text-align: center;">satuday 10am&10pm</P>
+                <P style="text-align: center;">SUNDAY WEEKOFF</P>
+            </div>
+            <div class="col-md-3">
+                <h4 style="text-align: left;"> LINK</h4><br>
+
+                <a href="index.html" style="text-align: center;"> <i class="fa-solid fa-house fa-beat fa-2xs"></i> HOME
+                </a><br><br>
+                <a href="about.html" style="text-align: center;"> <i class="fa-solid fa-address-card fa-beat fa-2xs"></i> ABOUT
+                    US</a><br><br>
+                <a href="albums.html" style="text-align: center;"> <i class="fa-solid fa-image fa-beat fa-2xs"></i>
+                    ALBUMS</a><br><br>
+                <a href="contact.html" style="text-align: center;"> <i class="fa-solid fa-phone fa-beat fa-2xs"></i>
+                    CONTACT</a><br><br>
+            </div>
+            <div class="col-md-3">
+                <h4>SHOOT TYPES</h4><br>
+                <P>PRE WEDDING</P>
+                <P>WEDDING</P>
+                <P>BABY SHOWER</P>
+                <P>BIRTHDAY </P>
+                <P>NATURE PHOTO</P>
+                <P> PHOTOGRAPHY</P>
+
+
+            </div>
+            <div class="col-md-3">
+                <img src="cam1-removebg-preview (1).png" alt="" height="300px" width="300px">
+            </div>
+        </div>
+    </div><br>
+   
+    <nav aria-label="Page navigation example">
+        <ul class="pagination justify-content-center">
+
+            <li class="page-item"><a class="page-link" href="#">MOVE UP</a></li>
+        </ul>
+    </nav>
+    <h4 class="" style="text-align: center; color: rgb(0, 0, 0);">CONTACT US</h4>
+    <img class="lk" src="wup.jpg" alt="" height="200px" width="200px">
+    <img class="lk" src="in.jpg" alt="" height="200px" width="200px">
+    <img class="lk" src="gm.png" alt="" height="200px" width="200px">
+    <img class="lk" src="ph.png" alt="" height="200" width="200px">
+    <img class="lk" src="yu.png" alt="" height="200px" width="200px">
+    <marquee behavior="" direction="" style="border-radius: 10px;">© Copyright Append All Rights Reserved</marquee>
+
+</body>
+
+</html>

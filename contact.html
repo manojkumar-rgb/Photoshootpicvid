@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CONTACT</title>
+    <link rel="stylesheet" href="front.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+        integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js"
+        integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy"
+        crossorigin="anonymous"></script>
+    <style>
+        .lk {
+            height: 150px;
+            width: 150px;
+            background-color: cadetblue;
+            position: relative;
+            animation-name: manoj;
+            animation-duration: 10s;
+            animation-timing-function: linear;
+            animation-delay: 2s;
+            animation-iteration-count: infinite;
+            animation-direction: alternate;
+            border-radius: 100px;
+
+        }
+
+
+        @keyframes manoj {
+            0% {
+                top: 0px;
+                left: 100px;
+
+            }
+
+            100% {
+                top: 0px;
+                left: 500px;
+            }
+        }
+    </style>
+</head>
+
+<body style="background-image: url(); background-color: rgb(223, 145, 247);">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <nav class="navbar navbar-dark bg-dark fixed-top">
+                    <div class="container-fluid">
+                        <a class="navbar-brand" href="#" style="font-family: cursive; color: aqua;">PICVID</a>
+                        <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas"
+                            data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar"
+                            aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class="offcanvas offcanvas-end text-bg-dark" tabindex="-1" id="offcanvasDarkNavbar"
+                            aria-labelledby="offcanvasDarkNavbarLabel">
+                            <div class="offcanvas-header">
+                                <h5 class="offcanvas-title" id="offcanvasDarkNavbarLabel">VIEW ALL</h5>
+                                <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas"
+                                    aria-label="Close"></button>
+                            </div>
+                            <div class="offcanvas-body">
+                                <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                                    <li class="nav-item">
+                                        <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="about.html">ABOUT US</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="albums.html">ALBUMS</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="contact.html">CONTACT</a>
+                                    </li>
+                                    <ul class="dropdown-menu dropdown-menu-dark">
+                                        <li><a class="dropdown-item" href="#">Action</a></li>
+                                        <li><a class="dropdown-item" href="#">Another action</a></li>
+                                        <li>
+                                            <hr class="dropdown-divider">
+                                        </li>
+                                        <li><a class="dropdown-item" href="#">Something else here</a></li>
+                                    </ul>
+                                    </li>
+                                </ul>
+                                <form class="d-flex mt-3" role="search">
+                                    <input class="form-control me-2" type="search" placeholder="Search"
+                                        aria-label="Search">
+                                    <button class="btn btn-success" type="submit">Search</button>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </nav>
+            </div>
+        </div>
+    </div><br><br><br>
+   <center> <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+
+                <iframe
+                     src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d125322.50873824842!2d76.967235!3d11.013968899999998!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sin!4v1728047252721!5m2!1sen!2sin"
+                     width="800" height="550" style="border:0;"  allowfullscreen="" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </div>
+    </div></center><br><br>
+
+    <h4  style="text-align: center; text-decoration: dotted;">CONTACT</h4><br><br>
+    <center><form action="thankyou.html" onsubmit="return check()">
+        <label for="">NAME</label>
+        <input type="text"  id="name" placeholder="plz enter the name "><br><br>
+        <label for="">EMAIL</label>
+        <input type="text" id="mail" placeholder="plz enter the mail"><br><br>
+        <label for="">MOBILE</label>
+        <input type="text" id="mob" placeholder="plz enter the mob"><br><br>
+        <label for="">FEED BACK</label>
+        <input type="text" id="feed" placeholder="plz enter the mob"><br><br>
+        <label for="">ADDRESS</label>
+        <input type="text" id="adr" placeholder="plz enter the mob"><br><br>
+        <button>submit</button>
+            </form>
+            <script>
+                function check(){
+                    name=document.getElementById("name").value;
+                    if(name==""){
+                        alert("plz enter the name");
+                        return false;
+                    }
+                    
+                    mail=document.getElementById("mail").value;
+                    m=/^([a-z]{5})+\@([a-z]{5})+\.([a-z]{3})+$/;
+                    if(!m.test(mail))
+                    {
+                        alert("enter the correct mail");
+                        return false;
+                    }
+                    mob=document.getElementById("mob").value;
+                    m=/^([0-9]{10})$/;
+                    if(!m.test(mob))
+                {
+                    alert("plz enter mob");
+                    return false;
+                }            
+        
+                }
+            </script></center><br>
+    <div style="color: rgb(255, 255, 255); background-color:  rgb(0, 0, 0);" class="continer">
+        <div class="row">
+
+            <div class="col-md-3">
+                <h4 style="text-align: center;"> OPENING TIME</h4><br>
+
+                <P style="text-align: center;">Monday 10am&6pm</P>
+                <P style="text-align: center;">TUSDAY 10AM&6PM</P>
+                <P style="text-align: center;">WEDNESDAY 10AM&6PM</P>
+                <P style="text-align: center;">THURSDAY 10AM&6PM</P>
+                <P style="text-align: center;">FRIDAY 10AM&6PM</P>
+                <P style="text-align: center;">satuday 10am&10pm</P>
+                <P style="text-align: center;">SUNDAY WEEKOFF</P>
+            </div>
+            <div class="col-md-3">
+                <h4 style="text-align: left;"> LINK</h4><br>
+
+                <a href="index.html" style="text-align: center;"> <i class="fa-solid fa-house fa-beat fa-2xs"></i> HOME
+                </a><br><br>
+                <a href="about.html" style="text-align: center;"> <i class="fa-solid fa-address-card fa-beat fa-2xs"></i> ABOUT
+                    US</a><br><br>
+                <a href="albums.html" style="text-align: center;"> <i class="fa-solid fa-image fa-beat fa-2xs"></i>
+                    ALBUMS</a><br><br>
+                <a href="contact.html" style="text-align: center;"> <i class="fa-solid fa-phone fa-beat fa-2xs"></i>
+                    CONTACT</a><br><br>
+            </div>
+            <div class="col-md-3">
+                <h4>SHOOT TYPES</h4><br>
+                <P>PRE WEDDING</P>
+                <P>WEDDING</P>
+                <P>BABY SHOWER</P>
+                <P>BIRTHDAY </P>
+                <P>NATURE PHOTO</P>
+                <P> PHOTOGRAPHY</P>
+
+
+            </div>
+            <div class="col-md-3">
+                <img src="cam1-removebg-preview (1).png" alt="" height="300px" width="300px">
+            </div>
+        </div>
+    </div><br>
+    </div><br>
+    <nav aria-label="Page navigation example">
+        <ul class="pagination justify-content-center">
+
+            <li class="page-item"><a class="page-link" href="#">MOVE UP</a></li>
+        </ul>
+    </nav>
+    <h4 class="" style="text-align: center; color: rgb(223, 145, 247);">CONTACT US</h4>
+    <img class="lk" src="wup.jpg" alt="" height="200px" width="200px">
+    <img class="lk" src="in.jpg" alt="" height="200px" width="200px">
+    <img class="lk" src="gm.png" alt="" height="200px" width="200px">
+    <img class="lk" src="ph.png" alt="" height="200" width="200px">
+    <img class="lk" src="yu.png" alt="" height="200px" width="200px">
+    <marquee behavior="" direction="" style="border-radius: 10px;">© Copyright Append All Rights Reserved</marquee>
+
+
+</body>
+
+</html>
