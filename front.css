@@ -1,0 +1,24 @@
+body{
+    
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.col{
+    opacity: 0.3;
+    box-shadow: crimson;
+    border-radius: 50px;
+}
+.col:hover{
+opacity: 1;
+background-color: aquamarine;
+}
+
+.vk{
+    opacity: 0.7;
+}
+.vk:hover{
+    opacity: 1;
+    /* box-shadow: 3px 4px 5px crimson; */
+    border-radius: 200px;
+    
+}
